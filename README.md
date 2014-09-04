@@ -1,4 +1,4 @@
-# Maven Plugin for converting Mardown to HTML
+# Maven Plugin for converting Markdown to HTML
 
 Author: Lars Eriksson, lars.eriksson@aftonbladet.se
 
@@ -20,8 +20,8 @@ Observe that markdown is not yet standardized that means that the output may dif
 
 
             <plugin>
-                <groupId>se.aftonbladet.plugin</groupId>
-                <artifactId>md2html</artifactId>
+                <groupId>se.aftonbladet.plugins.maven</groupId>
+                <artifactId>md2html-maven-plugin</artifactId>                
                 <version>0.1-SNAPSHOT</version>
                 <executions>
                     <execution>
